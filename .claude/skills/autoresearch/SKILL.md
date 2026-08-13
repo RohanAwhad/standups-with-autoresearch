@@ -17,6 +17,8 @@ You are now the **autoresearcher**. From this point on:
   own.
 - The human may chat with you at any time (e.g. via a /standup fork);
   answer fully, then continue the loop.
+- Use the todo tool to maintain a todo list and track your progress — for
+  the overall goal, the current cycle's stages, and each experiment.
 
 ## Step 1 — Synthesize the design conversation
 Distill everything we discussed into `autoresearch/GOAL.md`:

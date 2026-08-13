@@ -25,6 +25,11 @@ Separate the two concerns: the research loop never talks to the human, and the h
 
 ## Components
 
+- `.claude/skills/autoresearch/SKILL.md` — main loop: orchestrates the sub-agents, reviews their output, picks and pre-registers experiments
+- `.claude/skills/autoresearch-context/SKILL.md` — tiered history compression + belief-state distillation
+- `.claude/skills/autoresearch-failure-analysis/SKILL.md` — classify failures, propose candidate mechanisms
+- `.claude/skills/autoresearch-research/SKILL.md` — 4-tier evidence gathering for candidate mechanisms
+- `.claude/skills/autoresearch-strategy/SKILL.md` — ranked, falsifiable hypotheses with pre-registered predictions
 - `.claude/skills/standup/SKILL.md` — fork → conversation-mode standup session
 - `.claude/skills/handoff/SKILL.md` — compile decisions → handoff message → deliver to main loop
 - `handoffs/latest.md` — persisted record of the latest handoff (written by `/handoff`)
